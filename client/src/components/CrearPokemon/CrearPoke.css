@@ -1,0 +1,159 @@
+.formulario {
+    display: flex;
+    width: 550px;
+    height: 650;
+    margin: 0px auto;
+    background: linear-gradient(90deg, rgb(22, 46, 53) 23%, rgb(40, 43, 44) 85%);
+    /* background-color: rgb(22, 22, 26); */
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+}
+
+.inputs {
+    outline: none;
+    height: 30px;
+    width: 20em;
+    background-color: rgb(0, 0, 0);
+    /* background-color: gray; */
+    color: rgb(255, 255, 255);
+}
+
+.divprueba {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    /* justify-content: flex-start; */
+    align-items: baseline;
+}
+
+.divunico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.creatup {
+    padding-top: 100px;
+    text-shadow: 2px 2px 5px yellow;
+}
+
+.tipos {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    align-items: center;
+}
+
+.tiposxd {
+    display: flex;
+    margin-left: 500px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 500px;
+    height: 70px;
+}
+
+.untipo {
+    border: solid;
+    border-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.untipoboton {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+    color: black;
+    border: solid;
+    border-color: black;
+    cursor: pointer;
+    margin-right: 50px
+}
+
+.message-error {
+    color: red;
+    font-size: 15px;
+}
+
+.select {
+    background-color: black;
+    color: white;
+    width: 127px;
+    height: 32px;
+    margin-top: 50px;
+}
+
+.message {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.ri {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.pika {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    right: 0.8em;
+    top: 10em;
+}
+
+.btn {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-top: 100px;
+    margin-bottom: 43px;
+    margin-top: 25px;
+}
+
+.btn-green {
+    color: white;
+    background-color: #3CC93F;
+}
+
+.btn-green:hover {
+    background-color: #37B839;
+}
+
+.btn-green:active {
+    background-color: #29962A
+}
+
+.ptypes {
+
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+/* .formulario{display: flex;
+    width: 300px;
+    margin: 0px auto;
+    background-color: rgb(8, 8, 34);
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: stretch;
+} */

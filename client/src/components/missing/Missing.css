@@ -1,0 +1,30 @@
+.missing {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(22, 46, 53) 23%, rgb(40, 43, 44) 85%);
+}
+
+.nombre2 {
+    color: black;
+    font-size: 24px;
+}
+
+.boton {
+    bottom: 3em;
+    position: absolute;
+    border-radius: 3px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgb(255 255 255 / 30%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 30%);
+    cursor: pointer;
+    margin-bottom: 43px;
+    margin-top: 25px;
+    background: greenyellow;
+    left: 37em;
+    width: 94px;
+}
+
+.boton:hover {
+    background: green;
+}

@@ -1,0 +1,75 @@
+.contenedordecards {
+    display: flex;
+    flex-direction: row;
+    height: 1500px;
+    width: 1500px;
+    flex-wrap: wrap;
+    margin-left: 160px;
+}
+
+.fondo {
+    width: 100%;
+    height: 2300px;
+    background: linear-gradient(90deg, rgb(22, 46, 53) 23%, rgb(40, 43, 44) 85%);
+
+}
+
+.noimg {
+
+    width: 250px;
+    padding-top: 100px
+}
+
+.modificadores {
+
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.botones-abajo {
+    background: linear-gradient(90deg, rgba(180, 93, 93, 1) 25%, rgba(209, 0, 0, 1) 100%);
+    margin-right: 25px;
+    margin-top: 60px;
+    height: 20px;
+    width: 20px;
+}
+
+.botones-abajo:hover {
+    background: #4CAF50;
+
+}
+
+.organizador {
+    margin-left: 550px;
+
+}
+
+.boton2 {
+    bottom: 3em;
+
+    border-radius: 3px;
+
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgb(255 255 255 / 30%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 30%);
+    cursor: pointer;
+
+    background: greenyellow;
+
+    width: 84px;
+}
+
+.boton2:hover {
+    background: green;
+}
+.select2{
+    margin-top: 0px;
+    height: 52px;
+    background-color: black;
+    color: white;
+}
+.search{
+    background-color: black;
+    color: white;
+}

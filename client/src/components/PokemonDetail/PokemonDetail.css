@@ -1,0 +1,140 @@
+.Prueba {
+  background-color: black;
+}
+
+.Prueba2 {
+  height: 100%;
+  padding: 300px;
+  margin: 0px;
+  padding-bottom: 353px;
+}
+
+.vida {
+  margin-bottom: 10px;
+  height: 70px;
+  width: 150px;
+  font-size: 1.7em;
+  border: rgb(0, 0, 0) 2.5px solid;
+  margin-right: 20px;
+  background: linear-gradient(90deg, rgba(23, 77, 18, 1) 23%, rgba(61, 175, 36, 1) 85%);
+}
+
+.ataque {
+  margin-bottom: 10px;
+  height: 70px;
+  width: 150px;
+  font-size: 1.7em;
+  border: rgb(0, 0, 0) 2.5px solid;
+  margin-right: 20px;
+  background: linear-gradient(90deg, rgba(112, 28, 14, 1) 29%, rgba(199, 28, 28, 1) 85%);
+}
+
+.defensa {
+  margin-bottom: 10px;
+  height: 70px;
+  width: 150px;
+  font-size: 1.7em;
+  border: rgb(0, 0, 0) 2.5px solid;
+  margin-right: 20px;
+  background: linear-gradient(90deg, rgba(14, 22, 112, 1) 29%, rgba(28, 76, 199, 1) 85%);
+}
+
+.velocidad {
+  margin-bottom: 10px;
+  height: 70px;
+  width: 150px;
+  font-size: 1.6em;
+  border: rgb(0, 0, 0) 2.5px solid;
+  margin-right: 20px;
+  background: linear-gradient(90deg, rgba(113, 92, 10, 1) 29%, rgba(153, 199, 28, 1) 85%);
+}
+
+.peso {
+  margin-bottom: 10px;
+  height: 70px;
+  width: 150px;
+  font-size: 1.7em;
+  border: rgb(0, 0, 0) 2.5px solid;
+  margin-right: 20px;
+  background-color: brown;
+}
+
+.altura {
+  margin-bottom: 10px;
+  height: 70px;
+  width: 150px;
+  font-size: 1.7em;
+  border: rgb(0, 0, 0) 2.5px solid;
+  margin-right: 20px;
+  background-color: aqua;
+}
+
+.nombre {
+  padding-top: 77px;
+  margin-top: 80px;
+}
+
+.aleja {
+  padding-left: 200px
+}
+
+.containerxd {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.tiposdiv {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 300px;
+  margin-left: 50px;
+  align-content: flex-start;
+}
+
+.stats {
+  margin-top: 100px;
+}
+
+.imagenpokemon {
+  padding-bottom: 200px;
+  width: 270px
+}
+
+.imagenpokemonalt {
+  width: 270px;
+  margin-bottom: 480px;
+}
+
+.tiposbox {
+  display: flex;
+}
+
+.tipou {
+  color: white;
+  text-transform: uppercase;
+  width: 50px;
+  height: 30px;
+  padding-right: 20px;
+  margin-left: 50px;
+  margin-bottom: 229px;
+  border: rgb(0, 0, 0) 3px solid;
+}
+
+/* ol {
+    background: #ff9999;
+    padding: 20px;
+  } */
+
+/* ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+  } */
+h1 {
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px red;
+}

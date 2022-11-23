@@ -1,0 +1,35 @@
+.prueba {
+    background: rgb(34, 71, 82);
+    background: linear-gradient(90deg, rgb(22, 46, 53) 23%, rgb(40, 43, 44) 85%);
+}
+
+.pokedexlogo {
+    height: 180px;
+    position: absolute;
+    top: 5.2em;
+    right: 490px
+}
+
+.imagengrande {
+    width: 1000px;
+    height: 690px
+}
+
+.entrar {
+
+    position: absolute;
+
+    left: 0em;
+    right: 0;
+    bottom: 95px;
+    text-align: center;
+    font-size: 70px;
+   
+        font-family: Verdana;
+        font-family: 'PT Sans';
+    
+
+    margin: 82px 250px;
+    color: rgb(0, 0, 0);
+
+}
